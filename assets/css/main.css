@@ -209,6 +209,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.1em;
+
 	}
 
 	h3 {
@@ -2686,6 +2687,8 @@ input, select, textarea {
 
 				.tiles article > a h2 {
 					margin: 0;
+					-webkit-text-stroke-width: 2px;
+					-webkit-text-stroke-color: #242424;
 				}
 
 				.tiles article > a .content {
@@ -2715,7 +2718,7 @@ input, select, textarea {
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
 					background-color: #333333;
-					opacity: 0.35;
+					opacity: 0.8;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
